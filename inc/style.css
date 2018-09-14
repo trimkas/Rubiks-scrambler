@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.scrambleContainer{
+    background-color: yellow;
+    text-align: center;
+}
+
+.actualScramble{
+    font-size: 20px;
+}
+
+.controls{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+.controls input {
+    
+}
+
+#susta{
+    display: block;
+    margin: auto;
+    height: 50px;
+    background-color: transparent;
+    border: 3px solid yellow;
+    color: yellow;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+
+
+#susta:active{
+    background-color: rgba(255, 255, 0, 1);
+}
+
+
+
